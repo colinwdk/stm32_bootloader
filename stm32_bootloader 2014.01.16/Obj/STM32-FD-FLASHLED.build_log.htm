@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\work\code\stm32M3\stm32_bootloader\stm32f103_bootloader.uvproj
+Project File Date:  12/27/2013
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+user\main.c(56): warning:  #177-D: variable "i" was declared but never referenced
+      uint32_t i = 0;
+user\main.c: 1 warning, 0 errors
+compiling stm32f103_flash_u.c...
+compiling stm32f103_uart_u.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_usart.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=3340 RO-data=336 RW-data=316 ZI-data=3356  
+FromELF: creating hex file...
+".\Obj\STM32-FD-FLASHLED.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\work\\code\\stm32M3\\stm32_bootloader\\Obj\\STM32-FD-FLASHLED.axf" 
+Set JLink Project File to "D:\work\work\code\stm32M3\stm32_bootloader\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.319V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 0
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>

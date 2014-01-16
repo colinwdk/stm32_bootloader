@@ -1,0 +1,14 @@
+.\obj\stm32f103_uart_u.o: user\stm32f103_uart_u.c
+.\obj\stm32f103_uart_u.o: .\CM3\stm32f10x.h
+.\obj\stm32f103_uart_u.o: .\CM3\core_cm3.h
+.\obj\stm32f103_uart_u.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\stm32f103_uart_u.o: .\CM3\system_stm32f10x.h
+.\obj\stm32f103_uart_u.o: .\FWlib\inc\stm32f10x_conf.h
+.\obj\stm32f103_uart_u.o: .\FWlib\inc\stm32f10x_gpio.h
+.\obj\stm32f103_uart_u.o: .\CM3\stm32f10x.h
+.\obj\stm32f103_uart_u.o: .\FWlib\inc\stm32f10x_rcc.h
+.\obj\stm32f103_uart_u.o: .\FWlib\inc\misc.h
+.\obj\stm32f103_uart_u.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\obj\stm32f103_uart_u.o: user\stm32f103_flash_u.h
+.\obj\stm32f103_uart_u.o: user\stm32f103_uart_u.h
+.\obj\stm32f103_uart_u.o: .\FWlib\inc\stm32f10x_usart.h
